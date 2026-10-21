@@ -12,6 +12,7 @@ data class MngBrandPalette(
     val tabinactive: Color,
     val action: Color,
     val alert: Color,
+    val alerttext: Color,
     val statusbar: Color
 ) {
     /** Alias of [action] (PLAT-04). */
@@ -29,7 +30,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFDAA520),  // #daa520 · rgb(218, 165, 32)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFFDAA520),  // #daa520 · rgb(218, 165, 32)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Chicago Tribune (CT) */
@@ -40,7 +42,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF004E87)  // #004e87 · rgb(0, 78, 135)
     )
     /** Daily Press (DP) */
@@ -51,7 +54,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF005F7E),  // #005f7e · rgb(0, 95, 126)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFF005F7E),  // #005f7e · rgb(0, 95, 126)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Hartford Courant (HC) */
@@ -62,7 +66,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF4FA8D1),  // #4fa8d1 · rgb(79, 168, 209)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF4FA8D1),  // #4fa8d1 · rgb(79, 168, 209)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Morning Call (MC) */
@@ -73,7 +78,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF539CC4),  // #539cc4 · rgb(83, 156, 196)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFF539CC4),  // #539cc4 · rgb(83, 156, 196)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** New York Daily News (NYDN) */
@@ -84,7 +90,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF4591E0),  // #4591e0 · rgb(69, 145, 224)
         tabinactive = Color(0xFF333333),  // #333333 · rgb(51, 51, 51)
         action = Color(0xFF4492E0),  // #4492e0 · rgb(68, 146, 224)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF333333)  // #333333 · rgb(51, 51, 51)
     )
     /** Orange County Register (OCR) */
@@ -95,7 +102,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB04F0F),  // #b04f0f · rgb(176, 79, 15)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFAC4E0F)  // #ac4e0f · rgb(172, 78, 15)
     )
     /** Orlando Sentinel (OS) */
@@ -106,7 +114,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF15919D),  // #15919d · rgb(21, 145, 157)
         tabinactive = Color(0xFF333333),  // #333333 · rgb(51, 51, 51)
         action = Color(0xFF15919D),  // #15919d · rgb(21, 145, 157)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Petaluma Argus-Courier (PAC) */
@@ -117,7 +126,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFFEA00),  // #ffea00 · rgb(255, 234, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFA06318),  // #a06318 · rgb(160, 99, 24)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFA06318)  // #a06318 · rgb(160, 99, 24)
     )
     /** Pasadena Star News (PSN) */
@@ -128,7 +138,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFA6371E)  // #a6371e · rgb(166, 55, 30)
     )
     /** The San Diego Union-Tribune (SDUT) */
@@ -139,7 +150,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** San Gabriel Valley Tribune (SGVT) */
@@ -150,7 +162,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFB11E35)  // #b11e35 · rgb(177, 30, 53)
     )
     /** Sonoma Index Tribune (SIT) */
@@ -161,7 +174,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFFEA00),  // #ffea00 · rgb(255, 234, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF0F73A9),  // #0f73a9 · rgb(15, 115, 169)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF0F73A9)  // #0f73a9 · rgb(15, 115, 169)
     )
     /** Sun Sentinel (SS) */
@@ -172,7 +186,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF761113),  // #761113 · rgb(118, 17, 19)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFF761113),  // #761113 · rgb(118, 17, 19)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Buffzone (TB) */
@@ -183,7 +198,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF4351AF),  // #4351af · rgb(67, 81, 175)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF4351AF)  // #4351af · rgb(67, 81, 175)
     )
     /** Bay Area News (TBAN) */
@@ -194,7 +210,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF152C4F)  // #152c4f · rgb(21, 44, 79)
     )
     /** Boulder County Preps (TBCP) */
@@ -205,7 +222,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF3F51B5),  // #3f51b5 · rgb(63, 81, 181)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF3F51B5)  // #3f51b5 · rgb(63, 81, 181)
     )
     /** Broomfield Enterprise News (TBE) */
@@ -216,7 +234,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF4351AF),  // #4351af · rgb(67, 81, 175)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF4351AF)  // #4351af · rgb(67, 81, 175)
     )
     /** Boston Herald (TBH) */
@@ -227,7 +246,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF00538A),  // #00538a · rgb(0, 83, 138)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF255E97)  // #255e97 · rgb(37, 94, 151)
     )
     /** Boston Herald Sports (TBHS) */
@@ -238,7 +258,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB01E35),  // #b01e35 · rgb(176, 30, 53)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFC00030)  // #c00030 · rgb(192, 0, 48)
     )
     /** Canon City Daily Record (TCCDR) */
@@ -249,7 +270,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF353F8A)  // #353f8a · rgb(53, 63, 138)
     )
     /** Chico Enterprise Record (TCE) */
@@ -260,7 +282,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF1F4D83)  // #1f4d83 · rgb(31, 77, 131)
     )
     /** Colorado Hometown Weekly (TCHW) */
@@ -271,7 +294,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF353F8A),  // #353f8a · rgb(53, 63, 138)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF353F8A)  // #353f8a · rgb(53, 63, 138)
     )
     /** The Citizens' Voice (TCV) */
@@ -282,7 +306,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF434953),  // #434953 · rgb(67, 73, 83)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF434953)  // #434953 · rgb(67, 73, 83)
     )
     /** Daily Breeze (TDB) */
@@ -293,7 +318,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF2E6C90)  // #2e6c90 · rgb(46, 108, 144)
     )
     /** The Daily Camera (TDC) */
@@ -304,7 +330,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF007639),  // #007639 · rgb(0, 118, 57)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF007639)  // #007639 · rgb(0, 118, 57)
     )
     /** Delaware County Daily Times (TDCD) */
@@ -315,7 +342,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF5B9BC8),  // #5b9bc8 · rgb(91, 155, 200)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF4891B3)  // #4891b3 · rgb(72, 145, 179)
     )
     /** Daily Freeman (TDF) */
@@ -326,7 +354,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF1B6BAD)  // #1b6bad · rgb(27, 107, 173)
     )
     /** Daily Local Weschester (TDLW) */
@@ -337,7 +366,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF1591B7),  // #1591b7 · rgb(21, 145, 183)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF1591B5)  // #1591b5 · rgb(21, 145, 181)
     )
     /** The Denver Post (TDP) */
@@ -348,7 +378,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFF7A430),  // #f7a430 · rgb(247, 164, 48)
         tabinactive = Color(0xFF999999),  // #999999 · rgb(153, 153, 153)
         action = Color(0xFFF7A430),  // #f7a430 · rgb(247, 164, 48)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Denver Post Sports (TDPS) */
@@ -359,7 +390,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFC75D14),  // #c75d14 · rgb(199, 93, 20)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFC75D14)  // #c75d14 · rgb(199, 93, 20)
     )
     /** The East Bay Times (TEBT) */
@@ -370,7 +402,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF6BD1E6),  // #6bd1e6 · rgb(107, 209, 230)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF6BD1E6),  // #6bd1e6 · rgb(107, 209, 230)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF557FBA)  // #557fba · rgb(85, 127, 186)
     )
     /** Estes Park Trail Gazette (TEPTG) */
@@ -381,7 +414,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF3E8E75)  // #3e8e75 · rgb(62, 142, 117)
     )
     /** Eureka Times Standard (TETS) */
@@ -392,7 +426,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF353F8A)  // #353f8a · rgb(53, 63, 138)
     )
     /** Fort Morgan Times (TFMT) */
@@ -403,7 +438,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF32408F)  // #32408f · rgb(50, 64, 143)
     )
     /** Greeley Tribune (TGT) */
@@ -414,7 +450,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF44687F),  // #44687f · rgb(68, 104, 127)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF536E7F)  // #536e7f · rgb(83, 110, 127)
     )
     /** Inland Valley Daily Bulletin (TIVDB) */
@@ -425,7 +462,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFCCCCCC),  // #cccccc · rgb(204, 204, 204)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF004E87)  // #004e87 · rgb(0, 78, 135)
     )
     /** Journal Advocate (TJA) */
@@ -436,7 +474,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF353F8A)  // #353f8a · rgb(53, 63, 138)
     )
     /** Los Angeles Daily News (TLADN) */
@@ -447,7 +486,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFAB4022)  // #ab4022 · rgb(171, 64, 34)
     )
     /** Long Beach Press-Telegram (TLBPT) */
@@ -458,7 +498,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF2C47A0)  // #2c47a0 · rgb(44, 71, 160)
     )
     /** Loveland Reporter Herald (TLR) */
@@ -469,7 +510,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF4E5DCA),  // #4e5dca · rgb(78, 93, 202)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF4E5DCA)  // #4e5dca · rgb(78, 93, 202)
     )
     /** Lowell Sun News for Mobile (TLS) */
@@ -480,7 +522,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFAB4022)  // #ab4022 · rgb(171, 64, 34)
     )
     /** Longmont Times-Call for Mobile (TLTC) */
@@ -491,7 +534,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF007CBA),  // #007cba · rgb(0, 124, 186)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF007CBA)  // #007cba · rgb(0, 124, 186)
     )
     /** Monterey County Herald (TMCH) */
@@ -502,7 +546,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF3C6292),  // #3c6292 · rgb(60, 98, 146)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF3C6292)  // #3c6292 · rgb(60, 98, 146)
     )
     /** Macomb Daily (TMD) */
@@ -513,7 +558,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF3A527A),  // #3a527a · rgb(58, 82, 122)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF3F5177)  // #3f5177 · rgb(63, 81, 119)
     )
     /** Marin Independent Journal News (TMI) */
@@ -524,7 +570,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF1F4D83)  // #1f4d83 · rgb(31, 77, 131)
     )
     /** The Morning Journal (TMJ) */
@@ -535,7 +582,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFBC3B10)  // #bc3b10 · rgb(188, 59, 16)
     )
     /** The Mercury News (TMN) */
@@ -546,7 +594,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF004E87)  // #004e87 · rgb(0, 78, 135)
     )
     /** The Morning Sun (TMS) */
@@ -557,7 +606,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF3A527A),  // #3a527a · rgb(58, 82, 122)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF3F5177)  // #3f5177 · rgb(63, 81, 119)
     )
     /** The News Herald (TNH) */
@@ -568,7 +618,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFAB4022)  // #ab4022 · rgb(171, 64, 34)
     )
     /** Oneida Daily Dispatch (TOD) */
@@ -579,7 +630,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFB92111)  // #b92111 · rgb(185, 33, 17)
     )
     /** The Oakland Press (TOP) */
@@ -590,7 +642,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF0B151D)  // #0b151d · rgb(11, 21, 29)
     )
     /** The Press Democrat (TPD) */
@@ -601,7 +654,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF999999),  // #999999 · rgb(153, 153, 153)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** The Press-Enterprise (TPE) */
@@ -612,7 +666,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFA6371E)  // #a6371e · rgb(166, 55, 30)
     )
     /** The Pottstown Mercury (TPM) */
@@ -623,7 +678,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFBC3B10)  // #bc3b10 · rgb(188, 59, 16)
     )
     /** The Reporter for Mobile (TR) */
@@ -634,7 +690,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF007CBA),  // #007cba · rgb(0, 124, 186)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF007CBA)  // #007cba · rgb(0, 124, 186)
     )
     /** Redlands Daily Facts (TRDF) */
@@ -645,7 +702,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF9DD1F5),  // #9dd1f5 · rgb(157, 209, 245)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF2C47A0)  // #2c47a0 · rgb(44, 71, 160)
     )
     /** Reading Eagle (TRE) */
@@ -656,7 +714,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** Republican-Herald (TRH) */
@@ -667,7 +726,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF434953),  // #434953 · rgb(67, 73, 83)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF434953)  // #434953 · rgb(67, 73, 83)
     )
     /** Royal Oak Tribune (TROT) */
@@ -678,7 +738,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF013A67),  // #013a67 · rgb(1, 58, 103)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF013A67)  // #013a67 · rgb(1, 58, 103)
     )
     /** The Troy Record (TRR) */
@@ -689,7 +750,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFBC3B10)  // #bc3b10 · rgb(188, 59, 16)
     )
     /** Saratogian (TSAR) */
@@ -700,7 +762,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF00919E),  // #00919e · rgb(0, 145, 158)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
     /** The San Bernardino Sun (TSBS) */
@@ -711,7 +774,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFA6371E)  // #a6371e · rgb(166, 55, 30)
     )
     /** Santa Cruz Sentinel (TSCS) */
@@ -722,7 +786,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF353F8A)  // #353f8a · rgb(53, 63, 138)
     )
     /** Sentinel and Enterprise (TSEB) */
@@ -733,7 +798,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFBC3B10)  // #bc3b10 · rgb(188, 59, 16)
     )
     /** St. Paul Pioneer Press (TSPPP) */
@@ -744,7 +810,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF557FBA)  // #557fba · rgb(85, 127, 186)
     )
     /** The Standard-Speaker (TSS) */
@@ -755,7 +822,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF434953),  // #434953 · rgb(67, 73, 83)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF434953)  // #434953 · rgb(67, 73, 83)
     )
     /** Silicon Valley (TSV) */
@@ -766,7 +834,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF557FBA)  // #557fba · rgb(85, 127, 186)
     )
     /** The Trentonian (TT) */
@@ -777,7 +846,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF004E87),  // #004e87 · rgb(0, 78, 135)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF357DAD)  // #357dad · rgb(53, 125, 173)
     )
     /** The Times Herald (TTH) */
@@ -788,7 +858,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFBC3B10)  // #bc3b10 · rgb(188, 59, 16)
     )
     /** Times-Tribune (TTT) */
@@ -799,7 +870,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF434953),  // #434953 · rgb(67, 73, 83)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF434953)  // #434953 · rgb(67, 73, 83)
     )
     /** Ukiah Daily Journal (TUDJ) */
@@ -810,7 +882,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF32408F),  // #32408f · rgb(50, 64, 143)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF32408F)  // #32408f · rgb(50, 64, 143)
     )
     /** Vacaville Reporter (TVR) */
@@ -821,7 +894,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF408FCB),  // #408fcb · rgb(64, 143, 203)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF408FCB)  // #408fcb · rgb(64, 143, 203)
     )
     /** Vallejo Times Herald News (TVTH) */
@@ -832,7 +906,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF8D092D),  // #8d092d · rgb(141, 9, 45)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF8D092D)  // #8d092d · rgb(141, 9, 45)
     )
     /** Woodland Daily Democrat (TWDD) */
@@ -843,7 +918,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFF007639),  // #007639 · rgb(0, 118, 57)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF007639)  // #007639 · rgb(0, 118, 57)
     )
     /** Whittier Daily News (TWDN) */
@@ -854,7 +930,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFFFF6900),  // #ff6900 · rgb(255, 105, 0)
         tabinactive = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         action = Color(0xFFB93611),  // #b93611 · rgb(185, 54, 17)
-        alert = Color(0xFFFF0000),  // #ff0000 · rgb(255, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFFA6371E)  // #a6371e · rgb(166, 55, 30)
     )
     /** Virginian Pilot (VP) */
@@ -865,7 +942,8 @@ object MngBrandPalettes {
         tabactive = Color(0xFF005F7E),  // #005f7e · rgb(0, 95, 126)
         tabinactive = Color(0xFF000000),  // #000000 · rgb(0, 0, 0)
         action = Color(0xFF005F7E),  // #005f7e · rgb(0, 95, 126)
-        alert = Color(0xFFD80000),  // #d80000 · rgb(216, 0, 0)
+        alert = Color(0xFFCF000E),  // #cf000e · rgb(207, 0, 14)
+        alerttext = Color(0xFFFFFFFF),  // #ffffff · rgb(255, 255, 255)
         statusbar = Color(0xFF000000)  // #000000 · rgb(0, 0, 0)
     )
 
