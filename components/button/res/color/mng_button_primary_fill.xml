@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MNG button pilot (DEC-07). Fill: market action (generated per flavor), disabled: Core button.disabled.fill. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/mng_button_disabled_fill" />
+    <item android:color="@color/mng_brand_action" />
+</selector>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MNG Apps button pilot (DEC-07), View-based UI. Spec: mng_apps_core_ds/docs/components/BUTTON.md
+  Values come from generated resources only:
+    tokens/res/values/mng_button.xml                        (Core + Android button tokens)
+    tokens/flavors/<flavor>/res/values/mng_brand_colors.xml (@color/mng_brand_action per market)
+  Needs a Material Components or Material 3 app theme (MaterialButton).
+  Usage: <com.google.android.material.button.MaterialButton style="@style/Widget.MNG.Button.Primary" ... />
+-->
+<resources>
+    <!-- Primary, as shipped on the paywall Subscribe button: action fill, white uppercase label, 60dp, square. -->
+    <style name="Widget.MNG.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/mng_button_primary_fill</item>
+        <item name="android:textColor">@color/mng_button_primary_label</item>
+        <item name="cornerRadius">@dimen/mng_button_primary_corner_radius</item>
+        <item name="android:minHeight">@dimen/mng_button_primary_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <!-- Label weight and size PROVISIONAL (MISSING-ASSETS 5.5). Future: one label style (BTN-02). -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/mng_button_primary_text_size</item>
+        <item name="android:letterSpacing">@dimen/mng_button_primary_letter_spacing</item>
+        <!-- Shipped button is a plain color background: no shadow. Pressed = Material ripple. -->
+        <item name="elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Text link, as shipped on the paywall Log In link: black, system sans 16sp, underlined.
+         Underline: call MngTextLink.underline(view) (MaterialButton has no XML underline attribute). -->
+    <style name="Widget.MNG.Button.TextLink" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/mng_button_link</item>
+        <item name="android:textSize">@dimen/mng_button_link_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
